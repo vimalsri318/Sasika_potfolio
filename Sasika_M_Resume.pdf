@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sasika M | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        #hero {
+            background: linear-gradient(to right, #1f4037, #99f2c8);
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+        #hero h1 {
+            font-size: 4rem;
+            text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        #hero p {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        #hero .btn {
+            padding: 0.75rem 1.5rem;
+            font-size: 1.2rem;
+            border-radius: 25px;
+        }
+        section {
+            padding: 60px 0;
+        }
+        .bg-light {
+            background-color: #f8f9fa !important;
+        }
+        .bg-secondary {
+            background-color: #343a40 !important;
+            color: white;
+        }
+        .section-heading {
+            margin-bottom: 40px;
+            animation: fadeInUp 1s;
+        }
+        .content-block {
+            margin-bottom: 30px;
+            animation: fadeInUp 1s;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section -->
+    <header id="hero">
+        <h1 class="animate__animated animate__fadeInDown">Sasika M</h1>
+        <p class="animate__animated animate__fadeInUp">Aspiring Developer | Passionate About Clean Code & Innovations</p>
+        <div class="d-flex justify-content-center gap-3 animate__animated animate__fadeIn">
+            <a href="https://www.linkedin.com/in/sasika-mahi-b295b9257" target="_blank" class="btn btn-outline-light">LinkedIn</a>
+            <a href="https://github.com/Sasikamahi" target="_blank" class="btn btn-outline-light">GitHub</a>
+            <a href="#" download="Sasika_M_Resume.pdf" class="btn btn-warning">Download Resume</a>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light text-center">
+        <div class="container">
+            <h2 class="section-heading">Skills</h2>
+            <div class="row">
+                <div class="col-md-4 content-block">
+                    <h5>Languages</h5>
+                    <p>C, Python, HTML, CSS, JavaScript, Java, C++</p>
+                </div>
+                <div class="col-md-4 content-block">
+                    <h5>Core</h5>
+                    <p>Data Structures, Algorithms, OOPS, OS</p>
+                </div>
+                <div class="col-md-4 content-block">
+                    <h5>Framework</h5>
+                    <p>Django</p>
+                </div>
+                <div class="col-md-6 content-block">
+                    <h5>Database</h5>
+                    <p>MySQL</p>
+                </div>
+                <div class="col-md-6 content-block">
+                    <h5>Tools</h5>
+                    <p>VS Code, GitHub, Canva, Google Colab</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="bg-secondary text-center">
+        <div class="container">
+            <h2 class="section-heading">Education</h2>
+            <div class="content-block">
+                <h5>B.Tech (Artificial Intelligence and Data Science)</h5>
+                <p>CGPA: 7.34 (up to 4th Sem) | Sri Eshwar College of Engineering | 2022–2026</p>
+            </div>
+            <div class="content-block">
+                <h5>HSC</h5>
+                <p>BVN Matric Hr Sec School | 73.5% | 2021-2022</p>
+            </div>
+            <div class="content-block">
+                <h5>SSLC</h5>
+                <p>Vivek Vidyalaya Matric Hr Sec School | 63.8% | 2019-2020</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="bg-light text-center">
+        <div class="container">
+            <h2 class="section-heading">Certifications</h2>
+            <div class="row">
+                <div class="col-md-4 content-block">
+                    <p>MongoDB (Introduction)</p>
+                </div>
+                <div class="col-md-4 content-block">
+                    <p>Data Analytics</p>
+                </div>
+                <div class="col-md-4 content-block">
+                    <p>Django Nexus: Code Vertex</p>
+                </div>
+                <div class="col-md-4 content-block">
+                    <p>Learn JAVA Programming</p>
+                </div>
+                <div class="col-md-4 content-block">
+                    <p>Industry Powered Project Leap</p>
+                </div>
+                <div class="col-md-4 content-block">
+                    <p>Structured Query Language (SQL)</p>
+                </div>
+                <div class="col-md-4 content-block">
+                    <p>Data Structures and Algorithms</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="bg-secondary text-center">
+        <div class="container">
+            <h2 class="section-heading">Projects</h2>
+            <div class="row g-4">
+                <div class="col-md-6 content-block">
+                    <h5>DonorHub</h5>
+                    <p>A platform for organ donors, developed with Django for efficient data management, secure user authentication, and notification channels.</p>
+                </div>
+                <div class="col-md-6 content-block">
+                    <h5>Weather Forecasting</h5>
+                    <p>A JavaFX app to forecast weather using OpenWeatherMap API, focusing on user-friendly error handling and interface design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="bg-light text-center">
+        <div class="container">
+            <h2 class="section-heading">Achievements</h2>
+            <div class="content-block">
+                <p>1st place in paper presentation at CIT College</p>
+            </div>
+            <div class="content-block">
+                <p>Advanced Diploma in Java Programming</p>
+            </div>
+            <div class="content-block">
+                <p>Contest rating: 1512 (LeetCode), solved 193 problems</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-secondary text-center">
+        <div class="container">
+            <h2 class="section-heading">Contact</h2>
+            <div class="content-block">
+                <p>Email: <a href="mailto:sasika.m2022ai-ds@sece.ac.in" class="text-light">sasika.m2022ai-ds@sece.ac.in</a></p>
+            </div>
+            <div class="content-block">
+                <p>Phone: +91 8148282878</p>
+            </div>
+            <div class="content-block">
+                <p><a href="https://www.linkedin.com/in/sasika-mahi-b295b9257" target="_blank" class="text-light">LinkedIn</a></p>
+            </div>
+            <div class="content-block">
+                <p><a href="https://github.com/Sasikamahi" target="_blank" class="text-light">GitHub</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2025 Sasika M. All Rights Reserved.</p>
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
